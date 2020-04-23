@@ -1,21 +1,3 @@
-# class HorseStep:
-#     dx = [2, 1, -1, -2, -2, -1, 1, 2]
-#     dy = [1, 2, 2, 1, -1, -2, -2, -1]
-#     step = 1
-#
-#     def _init_(self, size, x, y):
-#         self.size = size
-#         self.desk = [[0 for _ in range(size)] for _ in range(size)]
-#         self.x = x
-#         self.y = y
-#         self.desk[self.x][self.y] = object.step
-#
-#     enviroment = {"done": False, "steps": False, "cor1": object.x, "coor2": object.y}
-#
-#
-# desk = HorseStep(5, 3, 4)
-
-
 def horse_step(x, y, size=5):
 
     desk = [[0 for _ in range(size)] for _ in range(size)]
